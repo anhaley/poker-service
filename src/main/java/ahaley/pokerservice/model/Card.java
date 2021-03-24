@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class Card {
-    private final short rank, suit;
+    private final int rank, suit;
 
     private static String[] suits = { "hearts", "spades", "diamonds", "clubs" };
     private static String[] ranks = {"Ace", "2", "3", "4", "5", "6", "7",
